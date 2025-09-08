@@ -14,23 +14,7 @@ if((new DateTime($week))->format('w') == 0) {
 function getColorById($id) {
     $colors = [
         ['bg-red-100/50', 'hover:bg-red-200', 'border-red-300'],
-        ['bg-pink-100/50', 'hover:bg-pink-200', 'border-pink-300'],
-        ['bg-purple-100/50', 'hover:bg-purple-200', 'border-purple-300'],
-        ['bg-indigo-100/50', 'hover:bg-indigo-200', 'border-indigo-300'],
-        ['bg-blue-100/50', 'hover:bg-blue-200', 'border-blue-300'],
-        ['bg-cyan-100/50', 'hover:bg-cyan-200', 'border-cyan-300'],
-        ['bg-teal-100/50', 'hover:bg-teal-200', 'border-teal-300'],
-        ['bg-green-100/50', 'hover:bg-green-200', 'border-green-300'],
-        ['bg-lime-100/50', 'hover:bg-lime-200', 'border-lime-300'],
-        ['bg-yellow-100/50', 'hover:bg-yellow-200', 'border-yellow-300'],
-        ['bg-amber-100/50', 'hover:bg-amber-200', 'border-amber-300'],
-        ['bg-orange-100/50', 'hover:bg-orange-200', 'border-orange-300'],
-        ['bg-red-200/50', 'hover:bg-red-300', 'border-red-400'],
-        ['bg-gray-100/50', 'hover:bg-gray-200', 'border-gray-300'],
-        ['bg-slate-100/50', 'hover:bg-slate-200', 'border-slate-300'],
-        ['bg-zinc-100/50', 'hover:bg-zinc-200', 'border-zinc-300'],
-        ['bg-neutral-100/50', 'hover:bg-neutral-200', 'border-neutral-300'],
-        ['bg-stone-100/50', 'hover:bg-stone-200', 'border-stone-300'],
+
     ];
     return $colors[$id % count($colors)];
 }
