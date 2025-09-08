@@ -3,4 +3,4 @@ Salut, voici une description pour le projet.
 
 
 
-## Voici une modificaiton au __fichier_ README.md.
+## Voici une modificaiton au __fichier__ README.md.
