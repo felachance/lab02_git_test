@@ -19,6 +19,7 @@
                 <div class="p-6 text-gray-900">
                     <div class="flex justify-between my-10">
                         <h1 class="text-4xl font-bold m-auto">{{ __('Bienvenue, ') . Auth::user()->first_name . " " . Auth::user()->last_name }}</h1>
+                        <h1>Dashboard</h1>
                     </div>
                 </div>
                 <div class="flex justify-around my-10">
